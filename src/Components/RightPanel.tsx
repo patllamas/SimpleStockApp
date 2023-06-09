@@ -10,6 +10,8 @@ const RightPanel = (props:any) => {
     <Drawer
       sx={{
         width: 300,
+        alignItems: "center",
+        justifyContent: "center",
         flexShrink: 0,
         "& .MuiDrawer-paper": {
           width: 300,
